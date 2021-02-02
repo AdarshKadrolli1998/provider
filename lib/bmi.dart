@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'bmi_provider.dart';
-import 'demo_provider.dart';
 
+// ignore: camel_case_types
 class BMI_Calc extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

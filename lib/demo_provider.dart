@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'bmi.dart';
 import 'counter.dart';
 
+// ignore: camel_case_types
 class Demo_Provider extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

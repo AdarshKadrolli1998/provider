@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
+import 'demo_bloc.dart';
 import 'demo_provider.dart';
 void main() {
-  runApp(MyApp());
+  runApp(App1());
 }
-class MyApp extends StatelessWidget {
+class App1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Demo_Provider(),
+      home: Bloc(),
     );
   }
 }
